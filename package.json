@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "1.0.0",
-  "description": "",
+  "description": "Experimenting with tensorflow javascript version",
   "main": "index.html",
   "scripts": {
     "start": "webpack serve --config webpack.config.dev.js"
@@ -30,5 +30,8 @@
     "webpack-dev-server": "^3.11.2",
     "webpack-glsl-loader": "^1.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.0.0",
+    "@tensorflow/tfjs-vis": "^1.5.0"
+  }
 }
